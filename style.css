@@ -1,0 +1,59 @@
+*{
+    font-family: Courier, monospace;
+    font-weight: bold;
+}
+
+html{
+    background: #8bd8ea;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 250px;
+}
+
+.pagination{
+    width: 400px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0 3px 0 0 #c7c6c6;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+button{
+    padding: 5px;
+    border-radius: 20px;
+    border-color: transparent;
+    background: none;
+}
+
+button:hover{
+    background: rgba(0,0,0,0.2);
+}
+
+.active{
+    background: #fc9e59;
+}
+
+.active:hover{
+    background: #fc9e59;
+    opacity: 0.8;
+}
+
+#page_buttons_selector{
+    padding: 0 10px;
+}
+
+#page_buttons_selector > button {
+    width: 35px;
+    margin: 0 3px;
+}
